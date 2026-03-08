@@ -64,3 +64,19 @@ The data_preparation.py script performs the following steps:
 - Processed training dataset with engineered features
 - Processed test dataset with identical feature transformations
 - Modeling-ready datasets with no data leakage
+
+## Model Card
+
+This project includes a model card that documents the machine learning model used to predict loan default risk.
+
+The notebook `model_card.ipynb` contains:
+
+- An executive summary of the credit risk modeling project
+- Data preparation and model training steps
+- Performance evaluation metrics such as AUC, precision, and recall
+- Model explainability using SHAP values
+- Adverse action mapping for regulatory transparency
+- Fairness analysis across demographic groups
+- Discussion of limitations and risks
+
+The model card provides transparency into how the model was developed and evaluated.
