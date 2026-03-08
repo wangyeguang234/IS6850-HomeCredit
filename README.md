@@ -65,6 +65,19 @@ The data_preparation.py script performs the following steps:
 - Processed test dataset with identical feature transformations
 - Modeling-ready datasets with no data leakage
 
+## Modeling Notebook
+
+This repository also includes a modeling notebook (`modeling.ipynb`) that compares several candidate models for the Home Credit Default Risk project.
+
+The notebook includes:
+- baseline benchmarking
+- candidate model comparison
+- class imbalance handling
+- hyperparameter tuning
+- supplementary data integration
+- Kaggle submission generation
+- final model performance summary
+
 ## Model Card
 
 This project includes a model card that documents the machine learning model used to predict loan default risk.
